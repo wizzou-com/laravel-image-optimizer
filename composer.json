@@ -1,0 +1,33 @@
+{
+    "name": "wizzou/laravel-image-optimizer",
+    "description": "A Laravel package to efficiently resize and optimize images, supporting multiple storage backends including local file systems and cloud storage like Amazon S3.",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "autoload": {
+        "psr-4": {
+            "Wizzou\\ImageOptimizer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wizzou\\ImageOptimizer\\ImageOptimizerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Wizzou",
+            "email": "info@wizzou.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3|^8.0",
+        "intervention/image": "^2.5",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5 || ^9.5"
+    } 
+}
