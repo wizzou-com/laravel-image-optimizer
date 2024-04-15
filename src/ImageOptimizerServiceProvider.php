@@ -11,7 +11,7 @@ class ImageOptimizerServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__.'/../config/image-optimizer.php', 'image-optimizer');
 
-        $this->app->singleton('imageoptimizer', function ($app) {
+        $this->app->singleton('image-optimizer', function ($app) {
             return new ImageOptimizer(config('image-optimizer'));
         });
 

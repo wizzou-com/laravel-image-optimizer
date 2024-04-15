@@ -8,6 +8,6 @@ class ImageOptimizerFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'imageoptimizer';
+        return 'image-optimizer';
     }
 }

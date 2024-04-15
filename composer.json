@@ -12,7 +12,10 @@
         "laravel": {
             "providers": [
                 "Wizzou\\ImageOptimizer\\ImageOptimizerServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "ImageOptimizer": "Wizzou\\ImageOptimizer\\Facades\\ImageOptimizerFacade"
+            }
         }
     },
     "authors": [
