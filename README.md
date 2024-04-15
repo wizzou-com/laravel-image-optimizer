@@ -1,5 +1,9 @@
 # Laravel Image Optimizer
 
+[![Latest Stable Version](https://poser.pugx.org/mollie/mollie-api-php/v/stable)](https://packagist.org/packages/mollie/mollie-api-php)
+[![Total Downloads](https://poser.pugx.org/mollie/mollie-api-php/downloads)](https://packagist.org/packages/mollie/mollie-api-php)
+[![License](http://poser.pugx.org/wizzou/laravel-image-optimizer/license)](https://packagist.org/packages/wizzou/laravel-image-optimizer)
+
 The `wizzou/laravel-image-optimizer` package provides a convenient solution for dynamically resizing and optimizing images in Laravel applications. It automates the process of image resizing, optimizing file sizes, and storing images in different storage backends such as local filesystems or cloud storage services like Amazon S3.
 
 ## Installation
